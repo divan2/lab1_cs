@@ -27,7 +27,7 @@ public class Rectangle
         get { return CalculatePerimeter(); }
     }
 }
-class Prgram
+class Program
 {
     static void Main()
     {
