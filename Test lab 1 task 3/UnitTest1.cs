@@ -12,12 +12,11 @@ public class UnitTest1
         Point p1 = new Point(0, 0);
         Point p2 = new Point(4, 0);
         Point p3 = new Point(4, 3);
-        Figure triangle = new Figure("Треугольник", p1, p2, p3);
+        Figure triangle = new Figure("РўСЂРµСѓРіРѕР»СЊРЅРёРє", p1, p2, p3);
 
-        // Act
         double perimeter = triangle.PerimeterCalculator();
 
-        // Assert
-        Assert.Equal(12, perimeter);
+        Assert.Equal(13, perimeter);
+        Console.WriteLine("test 1");
     }
 }
